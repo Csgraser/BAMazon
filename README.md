@@ -1,1 +1,3 @@
-# BAMazon
+BAMazon homework assignment
+
+Casey Graser
