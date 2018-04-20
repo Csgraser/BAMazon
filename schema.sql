@@ -14,13 +14,13 @@ CREATE TABLE Products(
 select * from Products;
 -- Products is a global table that all of the users regardless of their status (Customer, executive, manager). Only the manager and executive will be able to manipulate the tables.
 INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
-VALUES ("Skyrim","ENTERTAINMENT",49.95,150),
-    ("Overwatch","ENTERTAINMENT",59.99,200),
-    ("Box Of Hotsauce","GROCERY",24.50,50),
-    ("Sunglasses","CLOTHING",75.00,5),
-    ("Jeans","CLOTHING",54.25,35),
+VALUES ("Uncharted 4","ENTERTAINMENT",49.95,150),
+    ("DOOM","ENTERTAINMENT",59.99,200),
+    ("Crate of Spam","GROCERY",24.50,50),
+    ("Cool Shades","CLOTHING",75.00,5),
+    ("Worn Denim Jeans","CLOTHING",54.25,35),
     ("Survival Towel","SPORTS & OUTDOORS",42.42,42),
-    ("Se7en","ENTERTAINMENT",15.00,25),
+    ("Bill and Ted's Excellent Adventure","ENTERTAINMENT",15.00,25),
     ("Mad Max: Fury Road","ENTERTAINMENT",25.50,57),
     ("Monopoly","ENTERTAINMENT",30.50,35),
     ("Yahtzee","ENTERTAINMENT",19.95,23);
