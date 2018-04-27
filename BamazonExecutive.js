@@ -58,7 +58,7 @@ function viewProductByDept(){
       message: "Over Head Cost: ",
       default: 0,
       validate: function(val){
-				// isNaN means not a number. to make sure that the val is a number.
+				// isNaN means not a number. to make sure that the val is a number
         if(isNaN(val) === false){return true;}
         else{return false;}
       }

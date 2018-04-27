@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 })
 
 function start(){
-//prints the items for sale and their details
+//prints the items for sale and their details.
 connection.query('SELECT * FROM Products', function(err, res){
   if(err) throw err;
 

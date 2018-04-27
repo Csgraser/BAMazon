@@ -12,7 +12,7 @@ CREATE TABLE Products(
 );
 
 select * from Products;
--- Products is a global table that all of the users regardless of their status (Customer, executive, manager). Only the manager and executive will be able to manipulate the tables.
+-- Products is a global table that all of the users regardless of their status (Customer, executive, manager). Only the manager and executive will be able to manipulate the tables.--
 INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
 VALUES ("Uncharted 4","ENTERTAINMENT",49.95,150),
     ("DOOM","ENTERTAINMENT",59.99,200),

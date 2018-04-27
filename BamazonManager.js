@@ -67,7 +67,7 @@ function viewLowInventory(){
   });
 }
 
-//displays prompt to add more of an item to the store and asks how much
+//displays prompt to add more of an item to the store and asks how much.
 function addToInventory(){
   console.log('------Adding to Inventory------');
 
